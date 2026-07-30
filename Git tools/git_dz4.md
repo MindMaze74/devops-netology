@@ -39,6 +39,8 @@ git log --oneline v0.12.23^..v0.12.24
 ```
 <details>
   <summary>Нажмите, чтобы увидеть результаты git log </summary>
+
+```bash
 33ff1c03b (tag: v0.12.24) v0.12.24
 b14b74c49 [Website] vmc provider links
 3f235065b Update CHANGELOG.md
@@ -50,6 +52,7 @@ d5f9411f5 command: Fix bug when using terraform login on Windows
 dd01a3507 Update CHANGELOG.md
 225466bc3 Cleanup after v0.12.23 release
 85024d310 (tag: v0.12.23) v0.12.23
+```
 </details>
 
 
