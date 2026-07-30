@@ -23,8 +23,10 @@
   <summary>Нажмите, чтобы увидеть результаты  git log</summary>
 
 ```bash
-user@ubuntu24:~/git/devops-netology$ git log --oneline --graph --all --decorate
-* 808820e (HEAD -> main, origin/main, origin/git-rebase, git-rebase) git-rebase 1
+user@ubuntu24:~/git/devops-netology$ git log --oneline --graph --all --decorate -20
+* 0cf5094 (HEAD -> main, origin/main, origin/git-rebase, gitlab/main, git-rebase) Добавлен отчёт по заданию ветвления
+* cf6b0b3 Добавлен отчёт по заданию ветвления
+* 808820e git-rebase 1
 *   cc14dfc Merge branch 'git-merge' конфликтов не будет
 |\  
 | * fcd6b8b (origin/git-merge, git-merge) merge: use shift
@@ -35,7 +37,7 @@ user@ubuntu24:~/git/devops-netology$ git log --oneline --graph --all --decorate
 * 64cc631 Prepare to delete and move
 * b5f3c96 Prepare to delete and move
 * ce99456 новые правки
-* c901e43 (gitlab/main) Update README
+* c901e43 Update README
 * 84ccdbc Moved and deleted
 * 5de71b5 Prepare to delete and move
 * 95b546a Moved and deleted
@@ -44,39 +46,7 @@ user@ubuntu24:~/git/devops-netology$ git log --oneline --graph --all --decorate
 * b2f1860 завершение дз после правок
 * 28a8639 завершение дз после правок
 * 5300cb3 Moved and deleted
-* 2a55553 (tag: v0.1, tag: v0.0) Update .gitignore
-| * 3cc104c (origin/fix, gitlab/fix, fix) Update README in fix branch
-|/  
-* a23a577 Moved and deleted
-* 56d4cf3 Added gitignore
-* 096deca git add...
-* 2323eee First commit
-* cd254b4 Initial commit
- ^X
-| * 6e58370 merge: @ instead *
-* | b100e62 update rebase.sh in main
-|/  
-* 262c519 prepare for merge and rebase
-* 64cc631 Prepare to delete and move
-* b5f3c96 Prepare to delete and move
-* ce99456 новые правки
-* c901e43 (gitlab/main) Update README
-* 84ccdbc Moved and deleted
-* 5de71b5 Prepare to delete and move
-* 95b546a Moved and deleted
-* a73759e Moved and deleted
-* 0f998c0 Prepare to delete and move
-* b2f1860 завершение дз после правок
-* 28a8639 завершение дз после правок
-* 5300cb3 Moved and deleted
-* 2a55553 (tag: v0.1, tag: v0.0) Update .gitignore
-| * 3cc104c (origin/fix, gitlab/fix, fix) Update README in fix branch
-|/  
-* a23a577 Moved and deleted
-* 56d4cf3 Added gitignore
-* 096deca git add...
-* 2323eee First commit
-* cd254b4 Initial commit
+user@ubuntu24:~/git/devops-netology$ 
 
 ```
 
