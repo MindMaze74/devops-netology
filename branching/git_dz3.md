@@ -1,4 +1,4 @@
-# Отчёт по заданию «Ветвление, merge и rebase»
+# Отчёт по заданию «Ветвление, merge и rebase» - Старцев Данила Антонович
 
 ## Выполненные шаги
 1. Созданы файлы merge.sh и rebase.sh с начальным содержимым, коммит `prepare for merge and rebase`.
@@ -14,9 +14,11 @@
 
 ## Скриншоты
 ### Граф сети на GitHub
-![График сети]()
+![График сети](https://github.com/MindMaze74/devops-netology/blob/main/img/1.png)
 
 ### Локальный граф (команда git log)
+
+
 <details>
   <summary>Нажмите, чтобы увидеть результаты  git log</summary>
 
@@ -75,5 +77,7 @@ user@ubuntu24:~/git/devops-netology$ git log --oneline --graph --all --decorate
 * 096deca git add...
 * 2323eee First commit
 * cd254b4 Initial commit
+
 ```
+
 </details>
